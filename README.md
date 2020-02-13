@@ -1,6 +1,8 @@
 # gologin [![Build Status](https://travis-ci.org/dghubble/gologin.svg?branch=master)](https://travis-ci.org/dghubble/gologin) [![GoDoc](https://godoc.org/github.com/dghubble/gologin?status.png)](https://godoc.org/github.com/dghubble/gologin)
 <img align="right" src="https://storage.googleapis.com/dghubble/gologin.png">
 
+**_NOTE: This package was forked from dghubble/gologin and added the email retrieval in the `twitterHandler` function_**
+
 Package `gologin` provides chainable login `http.Handler`'s for [Google](http://godoc.org/github.com/dghubble/gologin/google), [Github](http://godoc.org/github.com/dghubble/gologin/github), [Twitter](http://godoc.org/github.com/dghubble/gologin/twitter), [Facebook](http://godoc.org/github.com/dghubble/gologin/facebook), [Bitbucket](http://godoc.org/github.com/dghubble/gologin/bitbucket), [Tumblr](http://godoc.org/github.com/dghubble/gologin/tumblr), or any [OAuth1](http://godoc.org/github.com/dghubble/gologin/oauth1) or [OAuth2](http://godoc.org/github.com/dghubble/gologin/oauth2) authentication providers.
 
 Choose a subpackage. Register the `LoginHandler` and `CallbackHandler` for web logins or the `TokenHandler` for (mobile) token logins. Get the authenticated user or access token from the request `context`.
@@ -17,7 +19,7 @@ See [examples](examples) for tutorials with apps you can run from the command li
 
 ## Install
 
-    go get github.com/dghubble/gologin
+    go get github.com/hielfx/gologin
 
 ## Docs
 
