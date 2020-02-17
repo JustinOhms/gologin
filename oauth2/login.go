@@ -6,8 +6,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/hielfx/gologin/v2"
-	"github.com/hielfx/gologin/v2/internal"
+	"github.com/hielfx/gologin"
+	"github.com/hielfx/gologin/internal"
 	"golang.org/x/oauth2"
 )
 

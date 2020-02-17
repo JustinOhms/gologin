@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"net/http/httptest"
 
-	"github.com/hielfx/gologin/v2/testutils"
+	"github.com/hielfx/gologin/testutils"
 )
 
 // newGoogleTestServer returns a new httptest.Server which mocks the Google

@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/hielfx/gologin/v2"
-	"github.com/hielfx/gologin/v2/google"
+	"github.com/hielfx/gologin"
+	"github.com/hielfx/gologin/google"
 	"github.com/dghubble/sessions"
 	"golang.org/x/oauth2"
 	googleOAuth2 "golang.org/x/oauth2/google"

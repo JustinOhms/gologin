@@ -7,7 +7,7 @@ Notable changes between releases.
 ## v2.2.0
 
 * Suffix packages with `/v2` to provide Go module support ([#37](https://github.com/hielfx/gologin/pull/37))
-  * Module users may import `github.com/hielfx/gologin/v2` starting in v2.2.0
+  * Module users may import `github.com/hielfx/gologin` starting in v2.2.0
   * Non-module users may continue using releases prior to v2.2.0
 
 ## v2.1.0

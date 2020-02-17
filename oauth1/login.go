@@ -3,8 +3,8 @@ package oauth1
 import (
 	"net/http"
 
-	"github.com/hielfx/gologin/v2"
-	"github.com/hielfx/gologin/v2/internal"
+	"github.com/hielfx/gologin"
+	"github.com/hielfx/gologin/internal"
 	"github.com/dghubble/oauth1"
 )
 
