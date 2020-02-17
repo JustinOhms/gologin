@@ -6,18 +6,18 @@ Notable changes between releases.
 
 ## v2.2.0
 
-* Suffix packages with `/v2` to provide Go module support ([#37](https://github.com/dghubble/gologin/pull/37))
-  * Module users may import `github.com/dghubble/gologin/v2` starting in v2.2.0
+* Suffix packages with `/v2` to provide Go module support ([#37](https://github.com/hielfx/gologin/pull/37))
+  * Module users may import `github.com/hielfx/gologin/v2` starting in v2.2.0
   * Non-module users may continue using releases prior to v2.2.0
 
 ## v2.1.0
 
-* Add `EnterpriseCallbackHandler` for Github Enterprise ([#33](https://github.com/dghubble/gologin/pull/33))
-* Add email address to Facebook Users ([0acc88](https://github.com/dghubble/gologin/commit/0acc881e40b4926bbba0c02944ad5842700a0eab))
-* Update Facebook API version to v2.9 ([0acc88](https://github.com/dghubble/gologin/commit/0acc881e40b4926bbba0c02944ad5842700a0eab))
-* Fix facebook `CallbackHandler` to pass Facebook errors ([#31](https://github.com/dghubble/gologin/pull/31))
-* Fix Github Users.Get call to accomodate a `go-github` [change](https://github.com/google/go-github/pull/529) ([#18](https://github.com/dghubble/gologin/pull/18))
-* Remove deprecated `digits` subpackage ([#29](https://github.com/dghubble/gologin/pull/29))
+* Add `EnterpriseCallbackHandler` for Github Enterprise ([#33](https://github.com/hielfx/gologin/pull/33))
+* Add email address to Facebook Users ([0acc88](https://github.com/hielfx/gologin/commit/0acc881e40b4926bbba0c02944ad5842700a0eab))
+* Update Facebook API version to v2.9 ([0acc88](https://github.com/hielfx/gologin/commit/0acc881e40b4926bbba0c02944ad5842700a0eab))
+* Fix facebook `CallbackHandler` to pass Facebook errors ([#31](https://github.com/hielfx/gologin/pull/31))
+* Fix Github Users.Get call to accomodate a `go-github` [change](https://github.com/google/go-github/pull/529) ([#18](https://github.com/hielfx/gologin/pull/18))
+* Remove deprecated `digits` subpackage ([#29](https://github.com/hielfx/gologin/pull/29))
 
 ## v2.0.0
 
