@@ -3,7 +3,6 @@ module github.com/justinohms/gologin/examples
 go 1.12
 
 require (
-	github.com/justinohms/gologin v2.2.0
 	github.com/dghubble/oauth1 v0.6.0
 	github.com/dghubble/sessions v0.1.0
 	github.com/gorilla/securecookie v1.1.1 // indirect
