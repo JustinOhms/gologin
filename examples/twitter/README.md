@@ -9,8 +9,8 @@ Package `gologin` provides Go handlers for Twitter which perform the OAuth1 Auth
 
 ### Getting Started
 
-    go get github.com/hielfx/gologin/twitter
-    cd $GOPATH/src/github.com/hielfx/gologin/examples/twitter
+    go get github.com/justinohms/gologin/twitter
+    cd $GOPATH/src/github.com/justinohms/gologin/examples/twitter
     go get .
 
 ## Example App

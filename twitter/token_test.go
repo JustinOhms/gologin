@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/hielfx/gologin"
-	oauth1Login "github.com/hielfx/gologin/oauth1"
-	"github.com/hielfx/gologin/testutils"
+	"github.com/justinohms/gologin"
+	oauth1Login "github.com/justinohms/gologin/oauth1"
+	"github.com/justinohms/gologin/testutils"
 	"github.com/dghubble/oauth1"
 	"github.com/stretchr/testify/assert"
 )

@@ -8,8 +8,8 @@ import (
 	"net/url"
 	"testing"
 
-	"github.com/hielfx/gologin"
-	"github.com/hielfx/gologin/testutils"
+	"github.com/justinohms/gologin"
+	"github.com/justinohms/gologin/testutils"
 	"github.com/dghubble/oauth1"
 	"github.com/stretchr/testify/assert"
 )

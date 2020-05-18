@@ -1,9 +1,9 @@
-# gologin [![Build Status](https://travis-ci.org/dghubble/gologin.svg?branch=master)](https://travis-ci.org/dghubble/gologin) [![GoDoc](https://godoc.org/github.com/hielfx/gologin?status.png)](https://godoc.org/github.com/hielfx/gologin)
+# gologin [![Build Status](https://travis-ci.org/dghubble/gologin.svg?branch=master)](https://travis-ci.org/dghubble/gologin) [![GoDoc](https://godoc.org/github.com/justinohms/gologin?status.png)](https://godoc.org/github.com/justinohms/gologin)
 <img align="right" src="https://storage.googleapis.com/dghubble/gologin.png">
 
 **_NOTE: This package was forked from dghubble/gologin and added the email retrieval in the `twitterHandler` function_**
 
-Package `gologin` provides chainable login `http.Handler`'s for [Google](http://godoc.org/github.com/hielfx/gologin/google), [Github](http://godoc.org/github.com/hielfx/gologin/github), [Twitter](http://godoc.org/github.com/hielfx/gologin/twitter), [Facebook](http://godoc.org/github.com/hielfx/gologin/facebook), [Bitbucket](http://godoc.org/github.com/hielfx/gologin/bitbucket), [Tumblr](http://godoc.org/github.com/hielfx/gologin/tumblr), or any [OAuth1](http://godoc.org/github.com/hielfx/gologin/oauth1) or [OAuth2](http://godoc.org/github.com/hielfx/gologin/oauth2) authentication providers.
+Package `gologin` provides chainable login `http.Handler`'s for [Google](http://godoc.org/github.com/justinohms/gologin/google), [Github](http://godoc.org/github.com/justinohms/gologin/github), [Twitter](http://godoc.org/github.com/justinohms/gologin/twitter), [Facebook](http://godoc.org/github.com/justinohms/gologin/facebook), [Bitbucket](http://godoc.org/github.com/justinohms/gologin/bitbucket), [Tumblr](http://godoc.org/github.com/justinohms/gologin/tumblr), or any [OAuth1](http://godoc.org/github.com/justinohms/gologin/oauth1) or [OAuth2](http://godoc.org/github.com/justinohms/gologin/oauth2) authentication providers.
 
 Choose a subpackage. Register the `LoginHandler` and `CallbackHandler` for web logins or the `TokenHandler` for (mobile) token logins. Get the authenticated user or access token from the request `context`.
 
@@ -19,11 +19,11 @@ See [examples](examples) for tutorials with apps you can run from the command li
 
 ## Install
 
-    go get github.com/hielfx/gologin
+    go get github.com/justinohms/gologin
 
 ## Docs
 
-Read [GoDoc](https://godoc.org/github.com/hielfx/gologin) or check the [examples](examples).
+Read [GoDoc](https://godoc.org/github.com/justinohms/gologin) or check the [examples](examples).
 
 ## Overview
 
@@ -120,7 +120,7 @@ See the [Twitter tutorial](examples/twitter) for a web app you can run from the 
 
 OAuth2 `StateHandler` implements OAuth 2 [RFC 6749](https://tools.ietf.org/html/rfc6749) 10.12 CSRF Protection using non-guessable values in short-lived HTTPS-only cookies to provide reasonable assurance the user in the login phase and callback phase are the same. If you wish to implement this differently, write a `http.Handler` which sets a *state* in the ctx, which is expected by LoginHandler and CallbackHandler.
 
-You may use `oauth2.WithState(context.Context, state string)` for this. [docs](https://godoc.org/github.com/hielfx/gologin/oauth2#WithState)
+You may use `oauth2.WithState(context.Context, state string)` for this. [docs](https://godoc.org/github.com/justinohms/gologin/oauth2#WithState)
 
 ### Failure Handlers
 

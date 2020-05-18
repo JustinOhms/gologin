@@ -9,8 +9,8 @@ Package `gologin` provides Go handlers for Github which perform the OAuth2 Autho
 
 ### Getting Started
 
-    go get github.com/hielfx/gologin/github
-    cd $GOPATH/src/github.com/hielfx/gologin/examples/github
+    go get github.com/justinohms/gologin/github
+    cd $GOPATH/src/github.com/justinohms/gologin/examples/github
     go get .
 
 ## Example App

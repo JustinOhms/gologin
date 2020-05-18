@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/dghubble/go-twitter/twitter"
-	"github.com/hielfx/gologin"
-	oauth1Login "github.com/hielfx/gologin/oauth1"
+	"github.com/justinohms/gologin"
+	oauth1Login "github.com/justinohms/gologin/oauth1"
 	"github.com/dghubble/oauth1"
 )
 

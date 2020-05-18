@@ -8,8 +8,8 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/hielfx/gologin"
-	"github.com/hielfx/gologin/facebook"
+	"github.com/justinohms/gologin"
+	"github.com/justinohms/gologin/facebook"
 	"github.com/dghubble/sessions"
 	"golang.org/x/oauth2"
 	facebookOAuth2 "golang.org/x/oauth2/facebook"

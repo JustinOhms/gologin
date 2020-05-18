@@ -9,8 +9,8 @@ github.com/client9/misspell v0.3.4/go.mod h1:qj6jICC3Q7zFZvVWo7KLAzC3yx5G7kyvSDk
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/dghubble/go-twitter v0.0.0-20190719072343-39e5462e111f h1:M2wB039zeS1/LZtN/3A7tWyfctiOBL4ty5PURBmDdWU=
 github.com/dghubble/go-twitter v0.0.0-20190719072343-39e5462e111f/go.mod h1:xfg4uS5LEzOj8PgZV7SQYRHbG7jPUnelEiaAVJxmhJE=
-github.com/hielfx/gologin v2.2.0 h1:eOe3pgQW0XOdl0InDSCBBXxaNmlVqlEXrrVcoTEO4l4=
-github.com/hielfx/gologin v2.2.0/go.mod h1:x4ADb+CAfJvtmlS4gakU1gInxSpzZX+acCHfPKqd02M=
+github.com/justinohms/gologin v2.2.0 h1:eOe3pgQW0XOdl0InDSCBBXxaNmlVqlEXrrVcoTEO4l4=
+github.com/justinohms/gologin v2.2.0/go.mod h1:x4ADb+CAfJvtmlS4gakU1gInxSpzZX+acCHfPKqd02M=
 github.com/dghubble/oauth1 v0.6.0 h1:m1yC01Ohc/eF38jwZ8JUjL1a+XHHXtGQgK+MxQbmSx0=
 github.com/dghubble/oauth1 v0.6.0/go.mod h1:8pFdfPkv/jr8mkChVbNVuJ0suiHe278BtWI4Tk1ujxk=
 github.com/dghubble/sessions v0.1.0 h1:8cStHVmJLVNr8LDNVaYLrJ20A5bnGlSJlFeV/v80K7U=

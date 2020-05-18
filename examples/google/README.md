@@ -9,8 +9,8 @@ Package `gologin` provides Go handlers for the Google OAuth2 Authorization flow 
 
 ### Getting Started
 
-    go get github.com/hielfx/gologin/google
-    cd $GOPATH/src/github.com/hielfx/gologin/examples/google
+    go get github.com/justinohms/gologin/google
+    cd $GOPATH/src/github.com/justinohms/gologin/examples/google
     go get .
 
 ## Example App

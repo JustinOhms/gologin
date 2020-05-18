@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/hielfx/gologin"
-	oauth2Login "github.com/hielfx/gologin/oauth2"
+	"github.com/justinohms/gologin"
+	oauth2Login "github.com/justinohms/gologin/oauth2"
 	"github.com/google/go-github/github"
 	"golang.org/x/oauth2"
 )

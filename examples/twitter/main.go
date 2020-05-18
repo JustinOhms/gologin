@@ -9,7 +9,7 @@ import (
 	"net/http"
 	"os"
 
-	"github.com/hielfx/gologin/twitter"
+	"github.com/justinohms/gologin/twitter"
 	"github.com/dghubble/oauth1"
 	twitterOAuth1 "github.com/dghubble/oauth1/twitter"
 	"github.com/dghubble/sessions"

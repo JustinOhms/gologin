@@ -1,4 +1,4 @@
-module github.com/hielfx/gologin
+module github.com/justinohms/gologin
 
 go 1.12
 
